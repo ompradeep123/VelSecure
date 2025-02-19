@@ -9,11 +9,11 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <img 
-                src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/velsecure-logo.png" 
-                alt="VelSecure Logo" 
-                className="h-10 w-auto"
+                  src="https://github.com/ompradeep123/images/blob/main/VelSecure_logo.png?raw=true" 
+                  alt="VelSecure Logo" 
+                className="h-40 w-auto"
               />
-              <span className="text-white text-xl font-bold">VelSecure</span>
+              
             </div>
             <p className="text-gray-400">
               Protecting your digital assets with advanced cybersecurity solutions.
