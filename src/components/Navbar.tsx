@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <div className="flex items-center gap-2">
                 <img 
-                  src="VelSecure_logo.png" 
+                  src="https://drive.google.com/file/d/12WdyvKwPmRPt01x9ytKsnFfSAFWYj-rf/view?usp=sharing" 
                   alt="VelSecure Logo" 
                   className="h-40 w-auto" // Changed from h-16 to h-48
                 />
