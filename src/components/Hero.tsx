@@ -43,10 +43,6 @@ export default function Hero() {
                 <h3 className="text-blue-400 text-4xl font-bold mb-2">100%</h3>
                 <p className="text-white">Dedication</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-lg p-6 rounded-lg mt-8">
-                <h3 className="text-blue-400 text-4xl font-bold mb-2">24/7</h3>
-                <p className="text-white">Support</p>
-              </div>
               <div className="bg-white/10 backdrop-blur-lg p-6 rounded-lg">
                 <h3 className="text-blue-400 text-4xl font-bold mb-2">Expert</h3>
                 <p className="text-white">Team</p>

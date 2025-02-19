@@ -70,7 +70,7 @@ export default function Services() {
               <div className="mt-6">
                 <a
                   href="#contact"
-                  className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors"
+                  className="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors transform hover:scale-105"
                 >
                   Request audit
                 </a>

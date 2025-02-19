@@ -25,26 +25,24 @@ export default function Navbar() {
                 <img 
                   src="src/asset/VelSecure_logo.png" 
                   alt="VelSecure Logo" 
-                  className="h-10 w-auto"
-                  height={1000}
-                  width={1000}
+                  className="h-40 w-auto" // Changed from h-16 to h-48
                 />
                 
               </div>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-6">
-                <a href="#" className="text-white hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">Home</a>
-                <a href="#services" className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">Services</a>
-                <a href="#about" className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">About</a>
-                <a href="#contact" className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                <a href="#" className="text-white hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors transform hover:scale-105">Home</a>
+                <a href="#services" className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors transform hover:scale-105">Services</a>
+                <a href="#about" className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors transform hover:scale-105">About</a>
+                <a href="#contact" className="text-gray-300 hover:text-blue-400 px-3 py-2 text-sm font-medium transition-colors transform hover:scale-105">Contact</a>
               </div>
             </div>
           </div>
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none transform hover:scale-105"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -54,10 +52,10 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-gray-900/95 backdrop-blur-lg">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <a href="#" className="text-white block px-3 py-2 text-base font-medium">Home</a>
-            <a href="#services" className="text-gray-300 block px-3 py-2 text-base font-medium">Services</a>
-            <a href="#about" className="text-gray-300 block px-3 py-2 text-base font-medium">About</a>
-            <a href="#contact" className="text-gray-300 block px-3 py-2 text-base font-medium">Contact</a>
+            <a href="#" className="text-white block px-3 py-2 text-base font-medium transform hover:scale-105">Home</a>
+            <a href="#services" className="text-gray-300 block px-3 py-2 text-base font-medium transform hover:scale-105">Services</a>
+            <a href="#about" className="text-gray-300 block px-3 py-2 text-base font-medium transform hover:scale-105">About</a>
+            <a href="#contact" className="text-gray-300 block px-3 py-2 text-base font-medium transform hover:scale-105">Contact</a>
           </div>
         </div>
       )}
