@@ -57,7 +57,6 @@ export default function Services() {
                 <span className={`rounded-lg inline-flex p-3 ${colorVariants[service.color]}`}>
                   <service.icon className="h-6 w-6" />
                 </span>
-                <ArrowUpRight className="h-5 w-5 text-gray-500 group-hover:text-white transition-colors" />
               </div>
               <div className="mt-6">
                 <h3 className="text-xl font-semibold text-white mb-2">
