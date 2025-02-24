@@ -9,9 +9,9 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <img 
-                  src="https://github.com/ompradeep123/images/blob/main/VelSecure_logo.png?raw=true" 
+                  src="https://raw.githubusercontent.com/ompradeep123/images/refs/heads/main/VelSecure_logo1.png" 
                   alt="VelSecure Logo" 
-                className="h-40 w-auto"
+                className="h-70 w-auto"
               />
               
             </div>
