@@ -67,7 +67,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-medium text-white">Email</h3>
-                <p className="mt-1 text-gray-400">contact@velsecure.com</p>
+                <p className="mt-1 text-gray-400">velsecure@veltech.edu.in</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
@@ -76,7 +76,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-medium text-white">Location</h3>
-                <p className="mt-1 text-gray-400">123 Security Street, Cyber City, CS 12345</p>
+                <p className="mt-1 text-gray-400">Vel Tech University , Avidi , Chennai 60002</p>
               </div>
             </div>
           </div>
