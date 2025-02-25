@@ -19,10 +19,10 @@ export default function Contact() {
 
     try {
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_test', // Replace with your EmailJS service ID
+        'template_test', // Replace with your EmailJS template ID
         formRef.current,
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        '1sXHdBQdWwF9jVB-1' // Replace with your EmailJS public key
       );
       setSubmitStatus({
         type: 'success',
