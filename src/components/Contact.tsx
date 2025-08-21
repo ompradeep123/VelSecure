@@ -58,7 +58,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-medium text-white">Phone</h3>
-                <p className="mt-1 text-gray-400">+1 (555) 123-4567</p>
+                <p className="mt-1 text-gray-400">+91 9941010112</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
@@ -76,7 +76,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-medium text-white">Location</h3>
-                <p className="mt-1 text-gray-400">Vel Tech University , Avidi , Chennai 60002</p>
+                <p className="mt-1 text-gray-400">Vel Tech University , Avadi , Chennai 60002</p>
               </div>
             </div>
           </div>
